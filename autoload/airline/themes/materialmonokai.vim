@@ -9,22 +9,32 @@ if ! exists("g:materialmonokai_subtle_airline")
 endif
 
 " {{{ Colors
-  let s:base00=['#1F292D', '233']
+  " shades of grey
+  let s:base00=['#1f292d', '233']
   let s:base01=['#383a3e', '236']
-  let s:base02=['#4f5b66', '240']
-  let s:base03=['#B0BEC5', '253']
+  let s:base02=['#3f565f', '240']
+  let s:base03=['#b0bec5', '253']
   let s:base04=['#a7adba', '145']
   let s:base05=['#c0c5ce', '251']
   let s:base06=['#cdd3de', '252']
   let s:base07=['#d8dee9', '253']
-  let s:base08=['#ec5f67', '203']
-  let s:base09=['#FD9720', '208']
-  let s:base0A=['#fac863', '221']
-  let s:base0B=['#FC3488', '197']
-  let s:base0C=['#62b3b2', '73']
-  let s:base0D=['#506E79', '241']
-  let s:base0E=['#c594c5', '141']
+  " red
+  let s:base08=['#e73c50', '203']
+  " orange
+  let s:base09=['#fd9720', '208']
+  " yellow
+  let s:base0A=['#e6db74', '221']
+  " pink
+  let s:base0B=['#fc3488', '197']
+  " aqua
+  let s:base0C=['#66d9ef', '73']
+  " 'coolgrey'
+  let s:base0D=['#506e79', '241']
+  " purple
+  let s:base0E=['#ae81ff', '141']
+  " brown
   let s:base0F=['#ab7967', '137']
+  " white
   let s:base10=['#ffffff', '15']
 " }}}
 
